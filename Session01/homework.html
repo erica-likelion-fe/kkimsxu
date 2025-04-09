@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	</head>
+	<body>
+    <form action="/submit" method = "POST">
+    <label for="username">아이디:</label>
+    <input 
+      type="text" 
+			id="username" 
+			name="'username" 
+			placeholde="아이디 입력"
+		/>
+    <input type="email" id="email" name="email" placeholde="이메일 입력">
+    <input type="submit" value="가입하기">
+    </form>
+    <select name="role" id="">
+        <option value="" selected disabled>역할을 선택해</option>
+
+        <option value="front">front</option>
+        <option value="bag">bag</option>
+        <option value="design">design</option>
+    </select>
+    
+    <label for="">information</label>
+    <textarea name="" id="" rows="4"></textarea>
+    <label for="swimming">취미:</label>
+    <input type="checkbox">
+    <br>
+    <input type="submit" value="전송하기">
+    <input type="reset" value="초기화하기">
+</body>
+</html>
